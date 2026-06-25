@@ -33,10 +33,11 @@ print("Banana is a", len1, "letter word")
 # String slicing
 name = "cellecor,quantum" # (15 characters) 
 print(name[0:8]) # 0 is first index and 8 is last index (not included 8th index character it count to n-1)
-print(name[1:5]) # 
-print(name[:8]) 
-print(name[9:])
-print(name[:])
+print(name[1:5]) 
+print(name[:8]) # python understand string start from 0 if don't write it
+print(name[9:]) # same for here it auto recognize it start from -1
+print(name[:])  # if don't write any then it print whole string
 print(name[0:-3]) # -3 is length - 3 = 15 - 3 = 12 
 print(name[-5:-1]) 
 print(name[-5:])
+print(name[-4:-2])
